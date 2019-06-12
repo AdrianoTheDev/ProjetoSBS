@@ -1,0 +1,58 @@
+body{
+     background-color: black !important;
+ }
+
+.jumbotron {
+    background: black;
+    text-align: center;
+}
+
+.headerLogin {
+    height: 150px;
+    text-align: center;
+    width: 100%;
+}
+.headerLogin__image{
+    height: 70%;
+}
+
+.footer{
+    bottom: 0;
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+}
+.footer__name{
+    text-align: center;
+    margin: 0;
+}
+
+.form {
+    width:300px;
+}
+
+
+.btn.btn-primary {
+    background: black;
+    border-color: white;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.btn.btn-primary:hover {
+    background: white;
+    color: black;
+}
+@media only screen and (min-width: 600px) {
+    .headerLogin {
+        height: 200px;
+        margin-bottom: 75px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .headerLogin {
+        height: 200px;
+        margin-bottom: 25px;
+    }
+}
